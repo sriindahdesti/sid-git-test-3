@@ -14,5 +14,32 @@
         <li>Satu</li>
         <li>Dua</li>
     </ul>
+
+    <!-- Kasus 3:
+    di github sudah ada dan di local sudah ada
+
+    kasus nya misal: saya ubah yg local tapi ternyata di githubnya berubah juga mungkin ada
+    temen kalian yg satu team mngedit file yang sama baris yg sama
+
+
+    kasus ini ketika di git push pada local akan error
+    dan solusinya
+    git status dulu untuk mengetahui
+    ket. branch kita lebih dulu satu commit karena asumsinya di remote ga ada perubahan
+
+    sekarang gita bisa menggunakan sebuah perintah git fetch -> akan mengecek
+    repo yg adad diremote sudah sampe mana commitnya beda ga sama yg kita punya
+
+    git status lagi
+    ket. dua2 nya bikin cabng yg beda
+
+    graph
+    ketahuan -> melakukan perubahan di file yg sama dan baris yg sama
+
+    jadi harus merge commit.. kita git pull dulu llau merge conflict akan otomatis masuk
+    ke dalam codingan kita di vscode -->
+
+
+    <!-- fetch -> itu ngecek commit yg ada di remote udah sampe mana -->
 </body>
 </html>
